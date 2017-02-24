@@ -14,10 +14,8 @@
 
 #define MAXLINE 5000
 
-
 void *cliSvr(void *arg)
 {
-
     int   n, sockfd;
     char  buffer[MAXLINE], buffer2[MAXLINE];
     char rmsg[100], *ROOT, *FPATH; 
@@ -134,9 +132,7 @@ void *cliSvr(void *arg)
                 }
             }
         
-    }
-   
-    
+    }     
 
     close(sockfd);
  
