@@ -1,4 +1,5 @@
-# Running procedure
+Running procedure
+
 server side:
 gcc -o httpServer httpServer.c -lpthread
 ./httpServer <port_number>
