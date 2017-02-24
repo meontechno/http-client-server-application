@@ -1,4 +1,4 @@
-Running procedure
+RUNNING PROCEDURE
 
 server side:
 gcc -o httpServer httpServer.c -lpthread
